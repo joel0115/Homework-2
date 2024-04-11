@@ -39,6 +39,7 @@ Please examine the mint function in the UniswapV2Pair contract. Upon initial liq
 
 > Solution
 
+
 According to [Uniswap v2 Core white paper](https://uniswap.org/whitepaper.pdf)
 
 The value of a liquidity pool share to grow over time, either by accumulating trading fees or through “donations” to the liquidity pool.
@@ -51,6 +52,7 @@ This should be a negligible cost for almost any token pair.But it dramatically i
 Investigate the minting function in the UniswapV2Pair contract. When depositing tokens (not for the first time), liquidity can only be obtained using a specific formula. What is the intention behind this?
 
 > Solution
+
 The formula: liquidity = Math.min(amount0.mul(_totalSupply) / _reserve0, amount1.mul(_totalSupply) / _reserve1);
 
 可以鼓勵 liquidity provider 提供相同比例的 token (因為能獲得的 liquidity 取決於提供比例較少之 token)，以維持 pool 內 token 的平衡
