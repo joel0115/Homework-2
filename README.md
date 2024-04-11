@@ -6,6 +6,7 @@ Please complete the report problem below:
 Provide your profitable path, the amountIn, amountOut value for each swap, and your final reward (your tokenB balance).
 
 > Solution
+
 path: tokenB->tokenA->tokenC->tokenE->tokenD->tokenC->tokenB
 
 ether: 5000000000000000000 -> 5655321988655321988 -> 2372138936383089007 -> 1530137136963616993 -> 3450741448619708083 -> 6684525579572586452 -> 22497221806974138089
