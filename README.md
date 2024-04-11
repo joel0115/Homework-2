@@ -6,14 +6,16 @@ Please complete the report problem below:
 Provide your profitable path, the amountIn, amountOut value for each swap, and your final reward (your tokenB balance).
 
 > Solution
->> path: tokenB->tokenA->tokenC->tokenE->tokenD->tokenC->tokenB
->> ether: 5000000000000000000 -> 5655321988655321988 -> 2372138936383089007 -> 1530137136963616993 -> 3450741448619708083 -> 6684525579572586452 -> 22497221806974138089
->> Token B balance: 22.49722180697414
+path: tokenB->tokenA->tokenC->tokenE->tokenD->tokenC->tokenB
+
+ether: 5000000000000000000 -> 5655321988655321988 -> 2372138936383089007 -> 1530137136963616993 -> 3450741448619708083 -> 6684525579572586452 -> 22497221806974138089
+ 
+Token B balance: 22.49722180697414
 ## Problem 2
 What is slippage in AMM, and how does Uniswap V2 address this issue? Please illustrate with a function as an example.
 
 > Solution
->> 
+Slippage:  
 
 ## Problem 3
 Please examine the mint function in the UniswapV2Pair contract. Upon initial liquidity minting, a minimum liquidity is subtracted. What is the rationale behind this design?
